@@ -5,9 +5,9 @@ définissant donc le réseau se doivent d'être équivalent pour qu'un ping soit
 Client -> 172.16.100.50   255.255.255.0
 Serveur -> 172.16.10.10	  255.255.255.0
 
-Il faut donc se rendre dans les paramètres réseaux de la VM client (screen 1.1), cliquez sur "Propriétés" concernant 
-l'IPv4, et modifiez le troisième de l'octet pour qu'il soit équivalent à celui du server (screen1.2).
-Screen1.3
+Il faut donc se rendre dans les paramètres réseaux de la VM client (image 1), cliquez sur "Propriétés" concernant 
+l'IPv4, et modifiez le troisième de l'octet pour qu'il soit équivalent à celui du server (image 2).
+Les machines peuvent donc se ping (image 3)
 
 <img src="./Screen_check/Screen1.1.png" width="400" height="400" />
 <img src="./Screen_check/Screen1.2.png" width="400" height="400" />

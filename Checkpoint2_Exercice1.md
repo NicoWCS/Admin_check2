@@ -29,9 +29,12 @@ Vous pouvez maintenant ping le client par son nom (image 3).
 
 ## Question 1.3 - Modifie la configuration réseau du client pour qu'il soit en DHCP. Vérifie le paramétrage DHCP sur le serveur et compare le avec l'adresse IP du client. Explique pourquoi le client ne récupère pas la 1ère adresse disponible sur la plage DHCP du serveur ? Fais une copie d'écran montrant l'adresse IP prise par le client.
 
-Après avoir modifié en DHCP l'attribution IP du poste client, effectuer la commande ipconfig attribue l'IP suivante : 172.16.10.20 . (screen3.1)
-La raison a cela est que dans la plage adresse définie sur le server, les adresses 172.16.10.1 à 172.16.10.19 sont exclues (screen3.2). Donc naturellement, le client récupère la 
-prmeière adresse IP disponible sur le site, à savoir la .20 . 
+Après avoir modifié en DHCP l'attribution IP du poste client, effectuer la commande ipconfig attribue l'IP suivante : 172.16.10.20 . (image 1)
+La raison a cela est que dans la plage adresse définie sur le server, les adresses 172.16.10.1 à 172.16.10.19 sont exclues (image 2). 
+Donc naturellement, le client récupère la premeière adresse IP disponible sur le site, à savoir la .20 . 
+
+<img src="./Screen_check/Screen3.1.png" width="400" height="400" />
+<img src="./Screen_check/Screen3.2.png" width="400" height="400" />
 
 
 

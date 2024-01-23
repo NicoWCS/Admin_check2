@@ -9,6 +9,7 @@ Il faut donc se rendre dans les paramètres réseaux de la VM client (screen 1.1
 l'IPv4, et modifiez le troisième de l'octet pour qu'il soit équivalent à celui du server (screen1.2).
 Screen1.3
 
+![Coucou](./Screen_check/Screen1.1.png)
 
 
 ## Question 1.2 - Le ping avec le nom des machines ne fonctionne pas. Modifie la configuration sur le client et/ou le serveur pour que cela soit possible et qu'un ping entre les 2 machines fonctionne avec le nom. Explique ce que tu as fait et montre le par des copies d'écran. On doit avoir la copie d'écran d'un ping fonctionnel.

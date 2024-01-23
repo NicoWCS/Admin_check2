@@ -17,9 +17,13 @@ Les machines peuvent donc se ping (image 3)
 
 ## Question 1.2 - Le ping avec le nom des machines ne fonctionne pas. Modifie la configuration sur le client et/ou le serveur pour que cela soit possible et qu'un ping entre les 2 machines fonctionne avec le nom. Explique ce que tu as fait et montre le par des copies d'écran. On doit avoir la copie d'écran d'un ping fonctionnel.
 
-Rendez-vous sur la VM server et allez dans "Outils"-> "DHCP". Ensuite, effectuer un clique droit sur "Reverse lookup zone" pour pouvoir ping non pas, par l'adresse IP, mais par le nom (screen2.1). Choisissez "New zone" -> "Primary" -> "IPv4", définissez le réseau sur lequel appliquer la recherche, puis cliquez sur "reverse lookup name".
-Une fois cela fait, cliquez droit sur "SWEETCAKES" et choisisseez "New Host A" (Screen2.2). Renseignez le nom ( ici CLIWIN10 ) et son ip ( 172.16.10.50 ) et validez.
-Vous pouvez maintenant ping le client par son nom (screen2.3). 
+Rendez-vous sur la VM server et allez dans "Outils"-> "DHCP". Ensuite, effectuer un clique droit sur "Reverse lookup zone" pour pouvoir ping non pas, par l'adresse IP, mais par le nom (image 1). Choisissez "New zone" -> "Primary" -> "IPv4", définissez le réseau sur lequel appliquer la recherche, puis cliquez sur "reverse lookup name".
+Une fois cela fait, cliquez droit sur "SWEETCAKES" et choisisseez "New Host A" (image 2). Renseignez le nom ( ici CLIWIN10 ) et son ip ( 172.16.10.50 ) et validez.
+Vous pouvez maintenant ping le client par son nom (image 3). 
+
+<img src="./Screen_check/Screen2.1.png" width="400" height="400" />
+<img src="./Screen_check/Screen2.2.png" width="400" height="400" />
+<img src="./Screen_check/Screen2.3.png" width="400" height="400" />
 
 
 

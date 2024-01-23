@@ -40,14 +40,14 @@ Donc naturellement, le client récupère la premeière adresse IP disponible sur
 
 ## Question 1.4 - Est-ce que ce client peut avoir l'adresse IP 172.16.10.15 en DHCP ? Si oui fais les manipulations nécessaires. Explique ce que tu as fait et montre par une copie d'écran le résultat de la commande ipconfig /all sur le client.
 
-Il est possible que le client ait une adresse en 172.16.10.15 en DHCP. Pour cela, il faut effectuer une réservation d'adresse. Une fois sur l'onglet gestion du DHCP, cliquez sur "IPv4" -> "Scope" -> "Réservation". Renseignez enuite le nom de la réservation, l'adresse IP a attribuée, l'adresse MAC de l'apapreil, ainsi que sa description (screen4.1).
-
+Il est possible que le client ait une adresse en 172.16.10.15 en DHCP. Pour cela, il faut effectuer une réservation d'adresse. Une fois sur l'onglet gestion du DHCP, cliquez sur "IPv4" -> "Scope" -> "Réservation". Renseignez enuite le nom de la réservation, l'adresse IP a attribuée, l'adresse MAC de l'apapreil, ainsi que sa description (image 1).
 Une fois validée, effectuer rendez-vous sur l'invite de commande du client et saisissez la commande
 "ipconfig /release" puis "ipconfig /renew" pour respectivmeent libérer le bail et immédiatement 
 en attribuer un nouveau ( soit une IP ). Enfin la commande "ipconfig /all" affiche la nouvelle 
-adresse désirée, rentrée préalablement en réservation (screen4.2).
+adresse désirée, rentrée préalablement en réservation (image 2).
 
-
+<img src="./Screen_check/Screen4.1.png" width="400" height="400" />
+<img src="./Screen_check/Screen4.2.png" width="400" height="400" />
 
 
 

@@ -8,8 +8,6 @@ Serveur -> 172.16.10.10	  255.255.255.0
 Il faut donc se rendre dans les paramètres réseaux de la VM client (screen 1.1), cliquez sur "Propriétés" concernant 
 l'IPv4, et modifiez le troisième de l'octet pour qu'il soit équivalent à celui du server (screen1.2).
 Screen1.3
-
-![Coucou](./Screen_check/Screen1.1.png)
 <img src="./Screen_check/Screen1.1.png" width="200" height="200" />
 
 
